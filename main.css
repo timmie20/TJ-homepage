@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 4em;
+  font-family: Montserrat, sans-serif;
+}
+.main {
+  font-family: Montserrat, sans-serif;
+}
+.head-section{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2em;
+}
+.header h1{
+  width: 40%;
+  font-weight: 700;
+  line-height: 45px;
+}
+.header button{
+  margin-right: 40px;
+}
+.header span{
+  color: #4249F2;
+}
+button {
+  background-color: #4249F2;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+
+}
+.head-section img{
+  margin: auto;
+}
+.pattners-img {
+  filter: grayscale(100%);
+}
+.sub-header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  align-items: center ;
+}
+.texts{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: flex-start;
+}
+.texts span{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.texts p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 70%;
+  color:#474747;
+}
+.secondary-div {
+  width: 613px;
+  height: 440px;
+  border: #4249F2 solid 3px;
+  position: relative;
+  border-radius: 10px;
+}
+.secondary-div div{
+  position: absolute;
+  top: -30px;
+  left: 15px;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+.blocks{
+  display: flex;
+  margin-top: 3em;
+  justify-content: space-between;
+  width: 100%;
+}
+.services span{
+  font-weight: 700;
+  font-size: 30px;
+}
+.individual-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  height: 350px;
+  border: none;
+  background-color: #fff;  
+  border-radius: 15px;
+  padding: 45px 30px 45px 30px;
+  justify-content: space-between;
+  box-shadow: 10px 10px 5px rgba(66, 73, 242, 0.1);
+}
+.individual-block div {
+  color: #fff;
+  background-color: #4249F2;
+  width: 50px;
+  padding: 1em;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+.individual-block span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+}
+.individual-block p {
+  font-size: 16px;
+  line-height: 19px;
+  width: 250px;
+  text-align: left;
+  color: #474747;
+}
+.last-text {
+  margin: auto;
+  margin-top: 8em;
+}
+.last-text span {
+  font-size: 30px;
+  text-align: center;
+  line-height: 38px;
+  width: 70%;
+
+}
+.last-text p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  width: 50%;
+  margin-top: 1.5em;
+}
+.img-collection{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.review{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5em;
+  justify-content: space-between;
+  gap: 5em;
+  align-items: center;
+}
+.title{
+  width: 60%;
+}
+.title span {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+.title p{
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 1em;
+}
+.elements {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  width: 350px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(66, 73, 242, 0.1);
+  height: 340px;
+  justify-content: center;
+  offset: 10px 10px;
+
+}
+.elements span{
+  font-weight: 700;
+  font-size: 30px;
+}
+.elements p{
+  font-size: 18px;
+  color:#4E4E4E;
+  text-align: center;
+  line-height: 24px;
+  width: 270px;
+
+}
+.review-scroller{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 37%;
+  gap: 3em;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.footer{
+  margin-top: 2em;
+  background-color: #4249F2;
+  height: 500px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  gap: 3em;
+}
+.content span{
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  width: 20%;
+  text-align: center;
+}
+#footer-btn {
+  background-color: #fff;
+  color: black;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+
+}
